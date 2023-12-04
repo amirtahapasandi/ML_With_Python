@@ -30,3 +30,5 @@ elif 15 <= temp <= 25:
     print("Wear a shirt!")
 elif 25 <= temp <= 35:
     print("Wear a T-Shirt")
+else:
+    print("Wear nothing")
