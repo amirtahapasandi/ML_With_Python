@@ -22,3 +22,7 @@ temp = float(input("what is the temp? "))
 # 15 - 25 : shirt 
 # 25 - 35 : T-Shirt 
 
+if temp < 5:
+    print("Wear a hat!")
+elif 5 > temp < 15:
+    print("wear a hoodie")
