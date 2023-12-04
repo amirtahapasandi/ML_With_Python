@@ -13,5 +13,12 @@ b = int(input("Enter the second number: "))
 c = a + b
 print(c)
 
-# Data types in python 
-# int : 2 , 
+# Get temp from user 
+temp = float(input("what is the temp? "))
+
+# Suggest what to wear 
+# Less than 5 : Hat  
+# 5 - 15 : Hoodie 
+# 15 - 25 : shirt 
+# 25 - 35 : T-Shirt 
+
