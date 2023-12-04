@@ -8,8 +8,8 @@ c = a + b
 print(c)
 
 # Get 2 inputs from user and print sum of them 
-a = input("Enter the first number: ")
-b = input("Enter the second number: ")
+a = int(input("Enter the first number: "))
+b = int(input("Enter the second number: "))
 c = a + b
 print(c)
 
