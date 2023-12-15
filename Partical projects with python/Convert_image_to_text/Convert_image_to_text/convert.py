@@ -12,3 +12,6 @@ for path in pathlib.Path("Persian_picture").iterdir():
     if path.is_file():
         img = path 
         text += pytesseract.image_to_string(Image.open(img), lang="fas")
+        text += 50 * "_"
+        
+print(text)
