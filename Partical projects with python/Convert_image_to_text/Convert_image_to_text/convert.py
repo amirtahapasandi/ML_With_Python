@@ -9,4 +9,4 @@ text = ""
 # ans = input("Do you want the photos to be translated into Persian?(y/n): ")
 
 for path in pathlib.Path("Persian_picture").iterdir():
-    print()
+    print(path)
