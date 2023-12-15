@@ -10,4 +10,5 @@ text = ""
 
 for path in pathlib.Path("Persian_picture").iterdir():
     if path.is_file():
-        print(path)
+        img = path 
+        text += pytesseract.image_to_string(Image.open(img), lang="fas")
