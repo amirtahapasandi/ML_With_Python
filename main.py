@@ -1,4 +1,4 @@
-text = "EPIC"
+text = "Cyres the great"
 
 print(f"{text}")
 print(f"{text:#<20}")
