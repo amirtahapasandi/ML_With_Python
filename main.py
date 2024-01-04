@@ -8,4 +8,5 @@ import csv
 
 with open("csv_file.csv", "r") as data_csv_file:
     data_reader_csv_file = csv.reader(data_csv_file)
-    print(data_reader_csv_file)
+    for line in data_reader_csv_file:  
+        print(data_reader_csv_file)
