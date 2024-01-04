@@ -6,5 +6,6 @@
 # print(f"{text:.^20}")
 import csv
 
-with open("csv_file") as data_csv_file:
+with open("csv_file.csv", "r") as data_csv_file:
     data_reader_csv_file = csv.reader(data_csv_file)
+    print(data_reader_csv_file)
