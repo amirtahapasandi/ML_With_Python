@@ -10,7 +10,4 @@ with open("csv_file.csv", "r") as data_csv_file:
     data_reader_csv_file = csv.reader(data_csv_file)
     for line in data_reader_csv_file:  
         print(line[0])
-        print(10 * "-")
-        print(line[1])
-        print(10 * "-")
-        print(line[2])
+        
