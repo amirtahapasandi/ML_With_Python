@@ -31,4 +31,5 @@ def Inserting(self, Mode:str, Dataset: dict)  -> None:
             print("Not pushed:(")
             
 def GettingCollectionsName(self) -> None:
+    Collections = self.DataBase.list_collections_names()
     
