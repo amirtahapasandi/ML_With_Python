@@ -12,3 +12,11 @@ class MongoDB:
         except:
             print("Not Connected!")
         time.sleep(0.01)
+
+def Inserting(self, Mode:str, Dataset: dict)  -> None:
+    """
+    :param Mode has two options : 'One' | 'Many'
+    """
+    if Mode == 'One':
+        try:
+            
