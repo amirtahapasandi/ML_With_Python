@@ -32,4 +32,10 @@ def Inserting(self, Mode:str, Dataset: dict)  -> None:
             
 def GettingCollectionsName(self) -> None:
     Collections = self.DataBase.list_collections_names()
-    
+    print("List od collections: ")
+    for collcetion in collections:
+        print(f"-{collcetion}")
+        
+if __name__ == "__main__":
+    FirstDB = MongoDB(ِِDataBaseName="USA")
+    FirstDB.GettingCollectionsName() 
