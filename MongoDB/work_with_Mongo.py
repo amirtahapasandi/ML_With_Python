@@ -19,4 +19,8 @@ def Inserting(self, Mode:str, Dataset: dict)  -> None:
     """
     if Mode == 'One':
         try:
+            self.collections.insert_one(Dataset)
+            print("Pushed:)")
+        except:
+            print("Not pushed:(")
             
