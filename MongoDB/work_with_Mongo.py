@@ -23,4 +23,12 @@ def Inserting(self, Mode:str, Dataset: dict)  -> None:
             print("Pushed:)")
         except:
             print("Not pushed:(")
+    elif Mode == 'Many':
+        try:
+            self.collections.insert_many(Dataset)
+            print("Pushed:)")
+        except:
+            print("Not pushed:(")
             
+def GettingCollectionsName(self) -> None:
+    
