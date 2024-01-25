@@ -37,5 +37,5 @@ def GettingCollectionsName(self) -> None:
         print(f"-{collcetion}")
         
 if __name__ == "__main__":
-    FirstDB = MongoDB(ِِDataBaseName="USA")
+    FirstDB = MongoDB(DataBaseName="USA")
     FirstDB.GettingCollectionsName() 
