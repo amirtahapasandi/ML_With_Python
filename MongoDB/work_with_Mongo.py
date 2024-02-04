@@ -2,6 +2,7 @@ import pymongo as pm
 import time 
 
 class MongoDB:
+    
     def __init__(self, DataBaseName:str = "local") -> None:
         try:
             self.Client = pm.MongoClient(host="127.0.0.1", port=27017)
