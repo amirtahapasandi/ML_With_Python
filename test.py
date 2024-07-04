@@ -3,3 +3,5 @@ c = input("Enter a char: ")
 
 if c in s:
     print(s.count(c))
+else:
+    print("nothing")
