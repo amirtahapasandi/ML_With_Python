@@ -1,9 +1,10 @@
-# Area of circle
 r = float(input("Enter the number: "))
-pi = 3.14
-area_of_circle = round(pi * (r ** 2), 2) 
-print(area_of_circle)
+
+# Area of circle
+
+print("area_of_circle=", round(3.14 * (r ** 2), 2) )
+
 
 # perimeter of the circle
-perimeter_of_circle = round(2 * pi * r)
-print(perimeter_of_circle)
+
+print("perimeter_of_circle=", round(2 * 3.14 * r))
