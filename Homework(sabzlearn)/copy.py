@@ -14,7 +14,7 @@ print(l2)
 
 # Deep copy
 l1 = [1, 2, ["A", "B"]]
-l2 = copy.copy(l1)
+l2 = copy.deepcopy(l1)
 
 print(id(l1))
 print(id(l2))
