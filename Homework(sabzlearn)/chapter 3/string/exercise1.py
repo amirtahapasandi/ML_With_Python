@@ -1,6 +1,7 @@
 str_of_user = input("str: ")
 
-count_of_sentence_in_str = str_of_user.count(".")
+count_of_sentence_in_str = str_of_user.count(".") + str_of_user.count("!") 
++ str_of_user.count("?")
 print(f"Count of sentence in str's user: {count_of_sentence_in_str}")
 
 
