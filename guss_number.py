@@ -1,6 +1,6 @@
 import random 
 
-number = random.randint(1,101)
+number = random.randint(1,100)
 while True:
     user_number = int(input("Please enter yout number(between 1 to 100): "))
     
