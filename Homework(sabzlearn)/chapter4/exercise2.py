@@ -1,7 +1,7 @@
 x,y,z = input("Enter the angles of the triangle: ").split(" ")
 a,b,c = input("Enter the lenght of the sides of the triangle: ").split(" ")
 
-if int(a) + int(b) > int(z) or int(a) + int(c) > int(b) or int(b) + int(c) > int(a):
+if int(a) + int(b) > int(z) and int(a) + int(c) > int(b) and int(b) + int(c) > int(a):
     print("It's a triangle!")
     if int(a) == int(b) or int(a) == int(c) or int(b) == int(c):
         print("It's a Isosceles triangle!")
