@@ -1,3 +1,5 @@
+# This technique is known as Ternary Operators, or Conditional Expressions.
+
 a = 2
 b = 330
 
