@@ -1,4 +1,4 @@
-import request as req
+import requests as req
 
 query : str = input("Enter your question: ")
 token : str = "703612:669d0ed0dec8a"
