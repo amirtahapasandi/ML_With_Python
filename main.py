@@ -6,6 +6,6 @@ URL : str = f"https://one-api.ir/chatgpt/?token={token}&action=gpt4o&q={query}"
 response : dict = req.get(URL).json()
 result = response["result"]
 
-with open("response.txt", "W") as f:
-    f.write(result)
+with open("response.txt", "w") as f:
+    f.write(result[0])
 print("Wrote to response.txt!")
