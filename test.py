@@ -1,5 +1,4 @@
 data = open("response.txt", "r")
 
-for i in data.readline():
-    print(i)
+print(data.readlines())
 data.close()
