@@ -1,3 +1,5 @@
 data = open("response.txt", "r")
-print(data.readline())
+
+for i in dataa.realine():
+    print(i)
 data.close()
