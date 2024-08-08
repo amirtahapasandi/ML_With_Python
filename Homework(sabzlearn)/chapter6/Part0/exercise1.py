@@ -1,4 +1,4 @@
-def lenght_of_string(string:str):
+def lenght_of_string(string:str)-> int:
     lenght = 0
     for _ in string:
         lenght += 1
