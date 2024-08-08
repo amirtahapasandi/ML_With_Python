@@ -1,9 +1,9 @@
 def func(char:str)-> str:
-    if 48 <= ord(char) <= 57:
+    if "0" <= char <= "9":
         print("Your char is number!")
-    elif 65 <= ord(char) <= 90:
+    elif "A" <= char <= "z":
         print("Your char is a upercase letter!")
-    elif 97 <= ord(char) <= 122:
+    elif "a" <= char <= "z":
         print("Your char is a lowercase letter!")
     else:
         print("Other!")
