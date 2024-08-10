@@ -17,11 +17,11 @@ price_of_binancecoin = binancecoin["price"]
 date = date.today()
 time = time()
 
-with open("my_csv_file.csv", "w") as mcf:
-    writer = csv.writer(mcf)
+with open("csv_file.csv", "w") as cf:
+    writer = writer(cf)
     writer.writerow(["name", "time", "date", "price"])
     data = [["bitcoin", f"{time}", f"{date}", f"{price_of_bitcoin}"],
-            ["etherum", f"{time}", f"{date}", f"{price_of_etherum}"],
+            ["etherum", f"{time}", f"{date}", f"{price_of_ethereum}"],
             ["tether", f"{time}", f"{date}", f"{price_of_tether}"],
             ["binancecoin", f"{time}", f"{date}", f"{price_of_binancecoin}"]]
     writer.writerows(data)
