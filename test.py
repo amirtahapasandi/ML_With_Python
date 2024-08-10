@@ -15,10 +15,6 @@ price_of_tether = tether["price"]
 binancecoin = result[3]
 price_of_binancecoin = binancecoin["price"]
 
-print(price_of_bitcoin)
-print(price_of_ethereum)
-print(price_of_tether)
-print(price_of_binancecoin)
 
 with open("my_csv_file.csv", "w") as mcf:
     writer = csv.writer(mcf)
