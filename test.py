@@ -1,5 +1,6 @@
 from requests import get
-import csv
+from csv import writer
+from datetime import date
 
 token : str = "703612:669d0ed0dec8a"
 URL : str = f"https://one-api.ir/DigitalCurrency/?token={token}"
