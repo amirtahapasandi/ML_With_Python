@@ -17,7 +17,7 @@ price_of_binancecoin = binancecoin["price"]
 date = date.today()
 time = time()
 
-with open("csv_file.csv", "w") as cf:
+with open("csv_file.csv", "w", newline = "") as cf:
     writer = writer(cf)
     writer.writerow(["name", "time", "date", "price"])
     data = [["bitcoin", f"{time}", f"{date}", f"{price_of_bitcoin}"],
