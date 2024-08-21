@@ -19,4 +19,3 @@ while True:
         break
     else:
         print("Your choice was wrong!\n")
-        
