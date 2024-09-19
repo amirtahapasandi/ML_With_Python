@@ -4,7 +4,10 @@ while True:
     list_of_elements = ["Rock","Paper","Scissors"]
     computer_choice = choice(list_of_elements)
     user_choice = input("Rock, Paper, Scissors: (r/p/s): ").lower()
-    if user_choice == "r":
+    valid_choices = ["r","p","s"]
+    if user_choice != valid_choices:
+        print("Invalid choice.")
+    elif user_choice == "r":
         print("You chosed Rock.")
         if computer_choice == "Rock":
             print("computer chosed Rock.")
