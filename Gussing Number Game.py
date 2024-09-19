@@ -8,7 +8,7 @@ while True:
             print("Too high!")
         elif user_choice < random_number:
             print("Too low!")
-        elif user_choice == random_number:
+        else:
             print("Congratulations! You gussed the number.")
             break
     except ValueError:
