@@ -10,3 +10,5 @@ while True:
     elif user_choice == random_number:
         print("Congratulations! You gussed the number.")
         break
+    else:
+        print("Enter a valid number!")
